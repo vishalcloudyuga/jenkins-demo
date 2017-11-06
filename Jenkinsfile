@@ -1,4 +1,4 @@
-throttle(['throttleDocker']) {
+
   node('docker') {
     wrap([$class: 'AnsiColorBuildWrapper']) {
       try{
@@ -38,4 +38,4 @@ throttle(['throttleDocker']) {
       }
     }
   }
-}
+
